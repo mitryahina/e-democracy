@@ -1,0 +1,5 @@
+{candidates: {name: "Yulia Tymoshenko", workPlace:  "Verkhovna Rada of Ukraine",
+position: "People's Deputy of Ukraine", family_real_estate:[588, 1500, 1862, 1500, 1244], other_properties: [picture_collections],
+securirties_sum: 28805153], juridical_person_assotiated:['Limited Liability Company
+ "Ledy Yu"', 'Limited Liability Company "Geofferson"'], income:[from_post: 225490, procents: 3954216,
+]}

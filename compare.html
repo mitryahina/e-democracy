@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>E - Democracy</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/agency.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+<!-- Navigation -->
+<center>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+          <a class="navbar-brand js-scroll-trigger" href="#page-top">E-Democracy</a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                  data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                  aria-label="Toggle navigation">
+              Menu
+              <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav text-uppercase ml-auto">
+                  <li class="nav-item">
+                      <a class="nav-link js-scroll-trigger" href="#services">Обов'язки кандидатів</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link js-scroll-trigger" href="#about">Кандидати</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link js-scroll-trigger" href="#sources">Джерела</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link js-scroll-trigger" href="#donate">Підтримка</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link js-scroll-trigger" href="#contact">Зв'язок з нами</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+</center>
+
+<!-- Header -->
+<header class="masthead">
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-heading text-uppercase">Вибори належать тобі!</div>
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about">Переглянути
+                кандидатів</a>
+        </div>
+    </div>
+</header>
+
+<div class="col-lg-10 col-md-10 col-sm-10">
+  <!-- <div class="dropdown show">
+    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Виберіть кандидатів, яких бажаєте порівняти:
+    </a>
+
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <a id="name_1" class="dropdown-item" href="#" onclick="add_name1()">name1</a>
+      <a id="name_2" class="dropdown-item" href="#" onclick="add_name2()">name2</a>
+      <a id="name_3" class="dropdown-item" href="#" onclick="add_name3()">name3</a>
+      <a id="name_4" class="dropdown-item" href="#" onclick="add_name4()">name4</a>
+      <a id="name_5" class="dropdown-item" href="#" onclick="add_name5()">name5</a>
+    </div>
+  </div> -->
+  <!------ Include the above in your HEAD tag ---------->
+
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-10 col-sm-10 col-md-8 col-sm-offset-3 col-md-offset-4">
+            <div class="panel panel-default">
+                <!-- Default panel contents -->
+                <div class="panel-heading">Виберіть кандидатів, яких бажаєте порівняти:</div>
+
+                <!-- List group -->
+                <ul class="list-group">
+                    <li id="name_1" class="list-group-item" onclick="add_name1();">
+                        Bootstrap Switch Default1
+                        <div class="material-switch pull-right">
+                            <input id="someSwitchOptionDefault" name="someSwitchOption001" type="checkbox"/>
+                            <label for="someSwitchOptionDefault" class="label-default"></label>
+                        </div>
+                    </li>
+                    <li id="name_2" class="list-group-item" onclick="add_name1()">
+                        Bootstrap Switch Primary2
+                        <div class="material-switch pull-right">
+                            <input id="someSwitchOptionPrimary" name="someSwitchOption001" type="checkbox"/>
+                            <label for="someSwitchOptionPrimary" class="label-default"></label>
+                        </div>
+                    </li>
+                    <li id="name_3" class="list-group-item" onclick="add_name1();">
+                        Bootstrap Switch Success3
+                        <div class="material-switch pull-right">
+                            <input id="someSwitchOptionSuccess" name="someSwitchOption001" type="checkbox"/>
+                            <label for="someSwitchOptionSuccess" class="label-default"></label>
+                        </div>
+                    </li>
+                    <li id="name_4" class="list-group-item" onclick="add_name1();">
+                        Bootstrap Switch Info4
+                        <div class="material-switch pull-right">
+                            <input id="someSwitchOptionInfo" name="someSwitchOption001" type="checkbox"/>
+                            <label for="someSwitchOptionInfo" class="label-default"></label>
+                        </div>
+                    </li>
+                    <li id="name_5" class="list-group-item" onclick="add_name1();">
+                        Bootstrap Switch Warning5
+                        <div class="material-switch pull-right">
+                            <input id="someSwitchOptionWarning" name="someSwitchOption001" type="checkbox"/>
+                            <label for="someSwitchOptionWarning" class="label-default"></label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <div class="col-md-10">
+    <table id="table_candidats_id" class="table table-sm">
+      <!-- <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td scope="row">3</td>
+          <td colspan="2">Larry the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody> -->
+    </table>
+  </div>
+</div>
+</div>
+
+<!-- Bootstrap core JavaScript -->
+<!--<script src="vendor/jquery/jquery.min.js"></script>-->
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Contact form JavaScript -->
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/agency.min.js"></script>
+
+<script type="text/javascript">
+
+
+  (function() {
+    function add_name1(){
+      alert("FGHJK");
+    }
+
+    function add_name2(){
+      return true;
+    }
+
+    function add_name3(){
+      return true;
+    }
+
+    function add_name4(){
+      return true;
+    }
+
+    function add_name5(){
+      return true;
+    }
+
+    function add_name(){
+      var num_can = 0;
+      var table_candidats = new Array();
+      if add_name1 == True:
+        var dropped_element1 = document.getElementById("name_1");
+        table_candidats[num_can] = dropped_element1;
+        num_can++;
+      if add_name2 == True:
+        var dropped_element2 = document.getElementById("name_2");
+        table_candidats[num_can] = dropped_element2;
+        num_can++;
+      if add_name3 == True:
+        var dropped_element3 = document.getElementById("name_3");
+        table_candidats[num_can] = dropped_element3;
+        num_can++;
+      if add_name4 == True:
+        var dropped_element4 = document.getElementById("name_4");
+        table_candidats[num_can] = dropped_element4;
+        num_can++;
+      if add_name5 == True:
+        var dropped_element5 = document.getElementById("name_5");
+        table_candidats[num_can] = dropped_element4;
+        num_can++;
+
+      for (int i = 0; i< table_candidats.length; i++)
+      {
+        tr = document.createElement('tr');
+        // 5 - lines of info
+        for (int cell = 0; cell < 5; cell++)
+        {
+          td = document.createElement('td');
+          tr.appendChild(td);
+          td.innerHTML = row * 22 + cell + 1;
+        }
+        table.appendChild(tr);
+      }
+      document.getElementById('table_candidats_id').appendChild(table);
+      }
+    }
+
+    add_name1();
+    add_name2();
+    add_name3();
+    add_name4();
+    add_name5();
+    add_name();
+</script>
+
+</body>
+
+</html>
