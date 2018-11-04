@@ -115,6 +115,7 @@ section h3.section-subheading {
 
 .main_looks{
   display: inline-block;
+  vertical-align: top;
 }
 
 .main_looks p, h5{
