@@ -36,7 +36,7 @@ h6 {
 }
 
 section {
-  padding: 100px 0;
+  padding: 25px 0;
   margin: 0;
 }
 
@@ -57,7 +57,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 50px 0 20px 0;
   }
 }
 
@@ -85,6 +85,23 @@ section h3.section-subheading {
 .btn-primary:active, .btn-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+}
+
+.checked_info{
+  margin-top: 100px;
+  padding-top: 20px;
+  text-align: right;
+}
+
+.checked_info p{
+  float: right;
+  padding-top: 5px;
+  width: 200px;
+  text-align: left;
+}
+
+.block_person{
+  padding-bottom: 40px;
 }
 
 ::-moz-selection {
@@ -153,7 +170,7 @@ img::-moz-selection {
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
+    /*background-color: transparent;*/
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -177,7 +194,8 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  /*background-image: url("../img/header-bg.jpg"); */
+  background-color: #212529;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -185,7 +203,7 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-  padding-top: 150px;
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 
@@ -207,7 +225,7 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
+    padding-top: 50px;
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
@@ -600,6 +618,7 @@ section#contact {
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
+  padding-bottom: 50px;
 }
 
 section#contact .section-heading {
@@ -656,6 +675,7 @@ section#contact :-ms-input-placeholder {
 footer {
   padding: 25px 0;
   text-align: center;
+  height: 100vh;
 }
 
 footer span.copyright {
@@ -689,4 +709,249 @@ ul.social-buttons li a {
   border-radius: 100%;
   outline: none;
   background-color: #212529;
+}
+/*NOTEEZY STYLE*/
+/*LOGO*/
+img#logo{
+  margin-top: -8px;
+  height: 20px;
+}
+
+/*Style for Candidates section*/
+section#candidates{
+  width: 100%;
+}
+section#candidates div.col-6{
+  padding: 10px 15px;
+  text-align: center;
+}
+section#candidates img{
+  width:80%;
+  margin-bottom: 10px;
+}
+section#candidates p{
+  margin: 0;
+}
+section#candidates div>p:first-child{
+  font-size:35px;
+}
+section#candidates span{
+  padding-right: 10px;
+  text-shadow: 2px 2px yellow;
+    font-size: 40px;
+}
+.candidates-block{
+  min-height: 500px;
+  /*border: 1px solid;*/
+}
+.candidates-block:hover .candidates-info{
+  display: none;
+}
+.candidates-block:hover .candidates-stat{
+  display: block;
+}
+.candidates-info{
+  height:500px;
+  margin: 15px 20px;
+  display:block;
+}
+.candidates-stat{
+  height:500px;
+  margin: 15px 20px;
+  display: none;
+  padding: 20px 10px;
+  font-size:25px;
+}
+div.candidates-stat:hover
+{
+  display: block;
+}
+/*Style for Donate Section*/
+section#donate{
+  background-color: #fed136;
+  padding: 150px 0px;
+}
+section#donate h2{
+  margin-bottom: 100px;
+}
+section#donate a{
+  color:white;
+  font-size:25px;
+  background-color: #212529;
+  padding: 20px 40px;
+}
+
+/*Compare Style*/
+div#compare{
+  margin-top: 120px;
+  padding:10px 30px;
+  text-align: center;
+}
+
+#compare div.col{
+  border: 1px solid silver;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+#compare div.col:hover{
+  box-shadow: 1px 1px;
+}
+
+div#compare img{
+  width: 80%;
+}
+
+div#compare p{
+margin-bottom: 0;
+}
+
+div#compare p>i{
+  margin-right: 10px;
+}
+
+p.compare-name {
+  font-size: 30px;
+}
+
+p.compare-name span{
+  text-shadow: 2px 2px yellow;
+  font-size: 40px;
+}
+
+div.compare-stat{
+  margin-top: 20px;
+}
+div.compare-stat p{
+  border-bottom: 1px solid silver;
+}
+
+.compare-program{
+  padding-top: 15px;
+}
+.compare-program span{
+  font-weight: bold;
+}
+/*Statistics*/
+section#statistics{
+  text-align: center;
+}
+
+
+/*Style for Progress Bar*/
+.progress {
+height: 20px;
+margin-bottom: 20px;
+overflow: hidden;
+background-color: #f5f5f5;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+.progress {
+background-image: -webkit-gradient(linear,left 0,left 100%,from(#ebebeb),to(#f5f5f5));
+background-image: -webkit-linear-gradient(top,#ebebeb 0,#f5f5f5 100%);
+background-image: -moz-linear-gradient(top,#ebebeb 0,#f5f5f5 100%);
+background-image: linear-gradient(to bottom,#ebebeb 0,#f5f5f5 100%);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffebebeb',endColorstr='#fff5f5f5',GradientType=0);
+}
+.progress {
+width: 80%;
+margin: auto;
+background-color: #ebeef1;
+background-image: none;
+box-shadow: none;
+}
+.progress-bar {
+float: left;
+width: 0;
+height: 100%;
+font-size: 12px;
+line-height: 20px;
+color: #fff;
+text-align: center;
+background-color: #428bca;
+-webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15);
+box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15);
+-webkit-transition: width .6s ease;
+transition: width .6s ease;
+}
+.progress-bar {
+background-image: -webkit-gradient(linear,left 0,left 100%,from(#428bca),to(#3071a9));
+background-image: -webkit-linear-gradient(top,#428bca 0,#3071a9 100%);
+background-image: -moz-linear-gradient(top,#428bca 0,#3071a9 100%);
+background-image: linear-gradient(to bottom,#428bca 0,#3071a9 100%);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca',endColorstr='#ff3071a9',GradientType=0);
+}
+.progress-bar {
+box-shadow: none;
+border-radius: 3px;
+background-color: #0090D9;
+background-image: none;
+}
+.progress-bar-success {
+background-image: -webkit-gradient(linear,left 0,left 100%,from(#5cb85c),to(#449d44));
+background-image: -webkit-linear-gradient(top,#5cb85c 0,#449d44 100%);
+background-image: -moz-linear-gradient(top,#5cb85c 0,#449d44 100%);
+background-image: linear-gradient(to bottom,#5cb85c 0,#449d44 100%);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c',endColorstr='#ff449d44',GradientType=0);
+}
+.progress-bar-success {
+background-color: #0AA699;
+background-image: none;
+}
+.progress-bar-info {
+background-image: -webkit-gradient(linear,left 0,left 100%,from(#5bc0de),to(#31b0d5));
+background-image: -webkit-linear-gradient(top,#5bc0de 0,#31b0d5 100%);
+background-image: -moz-linear-gradient(top,#5bc0de 0,#31b0d5 100%);
+background-image: linear-gradient(to bottom,#5bc0de 0,#31b0d5 100%);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de',endColorstr='#ff31b0d5',GradientType=0);
+}
+.progress-bar-info {
+background-color: #0090D9;
+background-image: none;
+}
+.progress-bar-warning {
+background-image: -webkit-gradient(linear,left 0,left 100%,from(#f0ad4e),to(#ec971f));
+background-image: -webkit-linear-gradient(top,#f0ad4e 0,#ec971f 100%);
+background-image: -moz-linear-gradient(top,#f0ad4e 0,#ec971f 100%);
+background-image: linear-gradient(to bottom,#f0ad4e 0,#ec971f 100%);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e',endColorstr='#ffec971f',GradientType=0);
+}
+.progress-bar-warning {
+background-color: #FDD01C;
+background-image: none;
+}
+.progress-bar-danger {
+background-image: -webkit-gradient(linear,left 0,left 100%,from(#d9534f),to(#c9302c));
+background-image: -webkit-linear-gradient(top,#d9534f 0,#c9302c 100%);
+background-image: -moz-linear-gradient(top,#d9534f 0,#c9302c 100%);
+background-image: linear-gradient(to bottom,#d9534f 0,#c9302c 100%);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f',endColorstr='#ffc9302c',GradientType=0);
+}
+.progress-bar-danger {
+background-color: #F35958;
+background-image: none;
+}
+
+ .progress-bar-violet {
+background-image: -webkit-gradient(linear,left 0,left 100%,from(#9900cc),to(#9900cc));
+background-image: -webkit-linear-gradient(top,#9900cc 0,#9900cc 100%);
+background-image: -moz-linear-gradient(top,#9900cc 0,#9900cc 100%);
+background-image: linear-gradient(to bottom,#9900cc 0,#9900cc 100%);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9900cc',endColorstr='#9900cc',GradientType=0);
+}
+.progress-bar-violet {
+background-color: #9900cc;
+background-image: none;
+}
+
+.green-progress{
+  text-shadow
 }
