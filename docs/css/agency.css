@@ -35,6 +35,10 @@ h6 {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+h4{
+  text-align: center;
+}
+
 section {
   padding: 25px 0;
   margin: 0;
@@ -102,6 +106,32 @@ section h3.section-subheading {
 
 .block_person{
   padding-bottom: 40px;
+}
+
+.looks{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.main_looks{
+  display: inline-block;
+}
+
+.main_looks p, h5{
+  text-align: center;
+}
+
+.profile_declar{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.decl_txt{
+  font-size: 20px;
+}
+
+.decl_icon{
+  color: #fed136;
 }
 
 ::-moz-selection {
